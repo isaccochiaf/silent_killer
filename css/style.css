@@ -1,0 +1,117 @@
+/*-----------------------Video INTRO-------------------*/
+
+.video-bg {
+    width: 100%;
+    position: relative;
+    display: block;
+    background: #000;
+}
+#bgvid {
+    width: 100% !important;
+    height: auto !important;
+    -o-transition: 1s opacity;
+    -moz-transition: 1s opacity;
+    -webkit-transition: 1s opacity;
+    transition: 1s opacity;
+}
+.player {
+    position: absolute;
+    bottom: 40px;
+    padding-left: 40px;
+    width: 100%;
+    height: auto;
+}
+.player button {
+    background-color: transparent;
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    border-radius: 50px;
+    border: #fff solid 2px;
+    -o-transition: 1s opacity;
+    -moz-transition: 1s opacity;
+    -webkit-transition: 1s opacity;
+    transition: 1s opacity;
+}
+.player button:focus {
+    outline: none;
+}
+button.mute {
+    background-color: transparent;
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    border: #fff solid 2px;
+    -o-transition: 1s opacity;
+    -moz-transition: 1s opacity;
+    -webkit-transition: 1s opacity;
+    transition: 1s opacity;
+}
+#title {
+    color: white;
+    -o-transition: 1s opacity;
+    -moz-transition: 1s opacity;
+    -webkit-transition: 1s opacity;
+    transition: 1s opacity;
+}
+#title h2,
+#title h4 {
+    color: white;
+    -o-transition: 1s opacity;
+    -moz-transition: 1s opacity;
+    -webkit-transition: 1s opacity;
+    transition: 1s opacity;
+}
+.opac {
+    opacity: 0.3
+}
+.opac-totale {
+    opacity: 0
+}
+.opac-off {
+    opacity: 0.6;
+}
+
+/*-----------------------GRID-------------------*/
+
+.space {
+    margin: 10% 0;
+}
+
+/*-----------------------MORTALITY GRAPH-------------------*/
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #d7d7d7;
+}
+.hidden {
+    display: none;
+}
+.box img,
+#description,
+#reload {
+    display: none;
+}
+.box,
+#reload {
+    cursor: pointer;
+}
+.result-description {
+    height: 200px;
+}
+#description {
+    color: #979797;
+    margin-top: 20px;
+}
+#description span {
+    color: #9e0a0f;
+    font-weight: 900;
+    color:
+}
+#reload {
+    color: #969696;
+    border: solid 2px #969696;
+    border-radius: 30px;
+    background-color: transparent;
+}

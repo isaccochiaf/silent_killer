@@ -1,0 +1,82 @@
+/*
+	This font software is the property of Commercial Type.
+
+	You may not modify the font software, use it on another website, or install it on a computer.
+
+	License information is available at http://commercialtype.com/eula
+	For more information please visit Commercial Type at http://commercialtype.com or email us at info[at]commercialtype.com
+
+	Copyright (C) 2013 Schwartzco Inc.
+	
+*/ 
+
+.LyonTextOSFWeb-Black {
+    font-family: 'Lyon Text OSF Web';
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+}
+.LyonTextOSFWeb-RegIt {
+    font-family: 'Lyon Text OSF Web';
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+}
+.LyonTextOSFWeb-Reg {
+    font-family: 'Lyon Text OSF Web';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+.LyonTextOSFWeb-SemiboldIt {
+    font-family: 'Lyon Text OSF Web';
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: normal;
+}
+.LyonTextOSFWeb-Semibold {
+    font-family: 'Lyon Text OSF Web';
+font-weight: 600;
+font-style: normal;
+font-stretch: normal;
+}
+@font-face {
+    font-family: 'Lyon Text OSF Web';
+    src: url('Lyon Text OSF Web-Black.eot');
+    src: url('Lyon Text OSF Web-Black.eot?#iefix') format('embedded-opentype'), url('Lyon Text OSF Web-Black.woff') format('woff'), url('Lyon Text OSF Web-Black.ttf') format('truetype'), url('Lyon Text OSF Web-Black.svg#Lyon Text OSF Web') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: 'Lyon Text OSF Web';
+    src: url('Lyon Text OSF Web-Reg It.eot');
+    src: url('Lyon Text OSF Web-Reg It.eot?#iefix') format('embedded-opentype'), url('Lyon Text OSF Web-Reg It.woff') format('woff'), url('Lyon Text OSF Web-Reg It.ttf') format('truetype'), url('Lyon Text OSF Web-Reg It.svg#Lyon Text OSF Web') format('svg');
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: 'Lyon Text OSF Web';
+    src: url('Lyon Text OSF Web-Reg.eot');
+    src: url('Lyon Text OSF Web-Reg.eot?#iefix') format('embedded-opentype'), url('Lyon Text OSF Web-Reg.woff') format('woff'), url('Lyon Text OSF Web-Reg.ttf') format('truetype'), url('Lyon Text OSF Web-Reg.svg#Lyon Text OSF Web') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: 'Lyon Text OSF Web';
+    src: url('Lyon Text OSF Web-Semibold It.eot');
+    src: url('Lyon Text OSF Web-Semibold It.eot?#iefix') format('embedded-opentype'), url('Lyon Text OSF Web-Semibold It.woff') format('woff'), url('Lyon Text OSF Web-Semibold It.ttf') format('truetype'), url('Lyon Text OSF Web-Semibold It.svg#Lyon Text OSF Web') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: 'Lyon Text OSF Web';
+    src: url('Lyon Text OSF Web-Semibold.eot');
+    src: url('Lyon Text OSF Web-Semibold.eot?#iefix') format('embedded-opentype'), url('Lyon Text OSF Web-Semibold.woff') format('woff'), url('Lyon Text OSF Web-Semibold.ttf') format('truetype'), url('Lyon Text OSF Web-Semibold.svg#Lyon Text OSF Web') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+}
