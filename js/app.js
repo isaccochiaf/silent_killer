@@ -17,4 +17,23 @@
 
      });
 
+     $('.btn').click(function () {
+
+         vimeoWrap = $('.vimeoWrap');
+         vimeoWrap.html(vimeoWrap.html());
+     });
+
+     $('.btn-group li').click(function () {
+         var target = "#" + $(this).data("target");
+         $(this).addClass("active-section");
+         $('.btn-group li').not(this).removeClass("active-section");
+
+         $(".container").not(target).addClass("hide-01");
+         $(target).removeClass("hide-01");
+
+
+
+     });
+
+
  });
