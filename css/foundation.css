@@ -2156,6 +2156,7 @@ meta.foundation-mq-topbar {
 .contain-to-grid {
     width: 100%;
     background: #333333;
+    position: fixed;
 }
 .contain-to-grid .top-bar {
     margin-bottom: 0;
