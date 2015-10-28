@@ -5,14 +5,14 @@
  var textreplay = '<i class="fa fa-undo"></i>'
 
 
- var videotitle = document.getElementById("title");
+ //var videotitle = document.getElementById("title");
 
 
 
  video.addEventListener('ended', function () {
      // only functional if "loop" is removed 
      video.pause();
-     videotitle.classList.toggle("opac-totale");
+     //videotitle.classList.toggle("opac-totale");
      video.classList.toggle("opac-off");
      pauseButton.innerHTML = textreplay;
      pauseButton.classList.toggle("opac");
@@ -21,7 +21,7 @@
  pauseButton.addEventListener("click", function () {
      video.classList.toggle("opac-off");
      pauseButton.classList.toggle("opac");
-     videotitle.classList.toggle("opac-totale");
+     //videotitle.classList.toggle("opac-totale");
 
      if (video.paused) {
          video.play();
