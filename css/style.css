@@ -171,6 +171,14 @@
     border-radius: 30px;
     background-color: transparent;
 }
+footer {
+    background-color: #dedbdb;
+    padding: 40px 0;
+}
+footer p {
+    font-size: 13px;
+    color: #3e3e3e
+}
 
 /*--------------------------VIDEO GALLERY------------*/
 

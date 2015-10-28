@@ -2791,7 +2791,7 @@
 		s11.345,10.787,10.973,14.507c-0.372,3.72-0.744,5.393-2.976,7.997c-2.232,2.604-5.58,7.815-3.906,12.093
 		c1.674,4.278,2.976,6.7,4.836,6.7s6.695,0,6.695,0S893.473,657.004,893.659,655.097z"/>
 </g>
-<text transform="matrix(1 0 0 1 -0.9237 134.4825)"><tspan x="0" y="0" fill="#9B1818" font-family="'LyonText-Black'" font-size="80.5036">14.600 pillole </tspan><tspan x="0" y="40.574" font-family="'LyonText-Black'" font-size="33.8115"> in 2 anni.</tspan></text>
-<text transform="matrix(1 0 0 1 2.4614 223.3218)" fill="#383838" font-family="'Publico-Roman'" font-size="23">l&apos;equivalente di 6 vasche da bagno.</text>
-<text transform="matrix(1 0 0 1 -1.525879e-04 53.8456)" fill="#383838" font-family="'Publico-Roman'" font-size="23">Un paziente affetto da MDR-TB deve ingerire </text>
+<text transform="matrix(1 0 0 1 -0.9237 134.4825)" fill="#9B1818" font-family="'LyonText-Black'" font-size="54">14.600 pillole in 2 anni</text>
+<text transform="matrix(1 0 0 1 5.3125 177.4825)" fill="#191919" font-family="'LyonText-Black'" font-size="23">l&apos;equivalente di 6 vasche da bagno</text>
+<text transform="matrix(1 0 0 1 -1.525879e-04 77.8444)" fill="#191919" font-family="'LyonText-Black'" font-size="23">Un paziente affetto da MDR-TB deve ingerire </text>
 </svg>
