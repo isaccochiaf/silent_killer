@@ -19,8 +19,8 @@
 
      $('.btn').click(function () {
 
-         vimeoWrap = $('.vimeoWrap');
-         vimeoWrap.html(vimeoWrap.html());
+         // vimeoWrap = $('.vimeoWrap');
+         //  vimeoWrap.html(vimeoWrap.html());
      });
 
      $('.btn-group li').click(function () {

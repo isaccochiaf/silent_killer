@@ -17,11 +17,15 @@
 
      });
 
-     $('.btn').click(function () {
+     /* $('.btn').click(function () {
+          
+          var iframe = document.querySelector(".profilo");
+             iframe.src = iframe.src;
+          //vimeoWrap = $('.vimeoWrap');
+          //vimeoWrap.html(vimeoWrap.html());
+      });*/
 
-         vimeoWrap = $('.vimeoWrap');
-         vimeoWrap.html(vimeoWrap.html());
-     });
+
 
      $('.btn-group li').click(function () {
          var target = "#" + $(this).data("target");
