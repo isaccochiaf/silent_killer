@@ -29,11 +29,27 @@
 
      $('.btn-group li').click(function () {
          var target = "#" + $(this).data("target");
+
          $(this).addClass("active-section");
          $('.btn-group li').not(this).removeClass("active-section");
 
          $(".container").not(target).addClass("hide-01");
          $(target).removeClass("hide-01");
+
+
+
+         var $frame = $(target).find("iframe");
+         var allframes = $(".main-video-box").find("iframe");
+         // saves the current iframe source
+         var vidsrc = $(this).data('videosrc');
+
+
+         // sets the source to nothing, stopping the video
+         allframes.attr('src', '');
+
+         // sets it back to the correct link so that it reloads immediately on the next window open
+         $frame.attr('src', vidsrc);
+
 
 
 
